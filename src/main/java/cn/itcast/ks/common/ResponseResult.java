@@ -30,9 +30,9 @@ public class ResponseResult<T> implements Serializable {
     }
 
     public ResponseResult(Integer code, String msg, T data) {
+        this.data = data;
         this.code = code;
         this.errorMessage = msg;
-        this.data = data;
     }
 
     public ResponseResult(Integer code, String msg) {

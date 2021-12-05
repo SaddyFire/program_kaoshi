@@ -8,7 +8,7 @@ spring:
     #数据库连接地址
     url: jdbc:mysql://localhost:3306/ks_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
-    password: root
+    password: 2323
   redis:
     host: localhost  #redis 连接地址
     password:   #redis 密码
