@@ -6,7 +6,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     #数据库连接地址
-    url: jdbc:mysql://localhost:3306/ks_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/ks_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
     username: root
     password: 2323
   redis:
